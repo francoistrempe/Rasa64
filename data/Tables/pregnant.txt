@@ -1,0 +1,18 @@
+true
+yes
+2
+y
+false
+no
+1
+n
+hell no
+definitely not
+I hope not
+0
+Unknown
+I don't know
+unsure
+I don't think so
+Yes No
+Maybe

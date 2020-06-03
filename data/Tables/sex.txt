@@ -1,0 +1,12 @@
+m
+male
+guy
+boy
+masculin
+mister
+f
+female
+girl
+woman
+feminin
+miss
