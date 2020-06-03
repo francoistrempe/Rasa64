@@ -1,0 +1,83 @@
+2020-06-02 07:55:30,096 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-06-02 07:55:46,777 [ERROR]  Exception occurred while handling uri: unknown
+Traceback (most recent call last):
+  File "c:\users\ftrempe\pycharmprojects\rasa64-3.7\venv\lib\site-packages\sanic\server.py", line 276, in data_received
+    self.parser.feed_data(data)
+  File "httptools\parser\parser.pyx", line 193, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: invalid HTTP method
+2020-06-02 07:55:46,779 [ERROR]  Exception occurred while handling uri: unknown
+Traceback (most recent call last):
+  File "c:\users\ftrempe\pycharmprojects\rasa64-3.7\venv\lib\site-packages\sanic\server.py", line 276, in data_received
+    self.parser.feed_data(data)
+  File "httptools\parser\parser.pyx", line 193, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: invalid HTTP method
+2020-06-02 07:55:47,028 [ERROR]  Exception occurred while handling uri: unknown
+Traceback (most recent call last):
+  File "c:\users\ftrempe\pycharmprojects\rasa64-3.7\venv\lib\site-packages\sanic\server.py", line 276, in data_received
+    self.parser.feed_data(data)
+  File "httptools\parser\parser.pyx", line 193, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: invalid HTTP method
+2020-06-02 07:55:47,082 [ERROR]  Exception occurred while handling uri: unknown
+Traceback (most recent call last):
+  File "c:\users\ftrempe\pycharmprojects\rasa64-3.7\venv\lib\site-packages\sanic\server.py", line 276, in data_received
+    self.parser.feed_data(data)
+  File "httptools\parser\parser.pyx", line 193, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: invalid HTTP method
+2020-06-02 07:55:47,086 [ERROR]  Exception occurred while handling uri: unknown
+Traceback (most recent call last):
+  File "c:\users\ftrempe\pycharmprojects\rasa64-3.7\venv\lib\site-packages\sanic\server.py", line 276, in data_received
+    self.parser.feed_data(data)
+  File "httptools\parser\parser.pyx", line 193, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: invalid HTTP method
+2020-06-02 07:55:47,332 [ERROR]  Exception occurred while handling uri: unknown
+Traceback (most recent call last):
+  File "c:\users\ftrempe\pycharmprojects\rasa64-3.7\venv\lib\site-packages\sanic\server.py", line 276, in data_received
+    self.parser.feed_data(data)
+  File "httptools\parser\parser.pyx", line 193, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: invalid HTTP method
+2020-06-02 08:00:28,171 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-06-02 08:00:40,472 [ERROR]  Exception occurred while handling uri: unknown
+Traceback (most recent call last):
+  File "c:\users\ftrempe\pycharmprojects\rasa64-3.7\venv\lib\site-packages\sanic\server.py", line 276, in data_received
+    self.parser.feed_data(data)
+  File "httptools\parser\parser.pyx", line 193, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: invalid HTTP method
+2020-06-02 08:00:40,474 [ERROR]  Exception occurred while handling uri: unknown
+Traceback (most recent call last):
+  File "c:\users\ftrempe\pycharmprojects\rasa64-3.7\venv\lib\site-packages\sanic\server.py", line 276, in data_received
+    self.parser.feed_data(data)
+  File "httptools\parser\parser.pyx", line 193, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: invalid HTTP method
+2020-06-02 08:00:40,722 [ERROR]  Exception occurred while handling uri: unknown
+Traceback (most recent call last):
+  File "c:\users\ftrempe\pycharmprojects\rasa64-3.7\venv\lib\site-packages\sanic\server.py", line 276, in data_received
+    self.parser.feed_data(data)
+  File "httptools\parser\parser.pyx", line 193, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: invalid HTTP method
+2020-06-02 08:00:40,776 [ERROR]  Exception occurred while handling uri: unknown
+Traceback (most recent call last):
+  File "c:\users\ftrempe\pycharmprojects\rasa64-3.7\venv\lib\site-packages\sanic\server.py", line 276, in data_received
+    self.parser.feed_data(data)
+  File "httptools\parser\parser.pyx", line 193, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: invalid HTTP method
+2020-06-02 08:00:40,778 [ERROR]  Exception occurred while handling uri: unknown
+Traceback (most recent call last):
+  File "c:\users\ftrempe\pycharmprojects\rasa64-3.7\venv\lib\site-packages\sanic\server.py", line 276, in data_received
+    self.parser.feed_data(data)
+  File "httptools\parser\parser.pyx", line 193, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: invalid HTTP method
+2020-06-02 08:00:41,026 [ERROR]  Exception occurred while handling uri: unknown
+Traceback (most recent call last):
+  File "c:\users\ftrempe\pycharmprojects\rasa64-3.7\venv\lib\site-packages\sanic\server.py", line 276, in data_received
+    self.parser.feed_data(data)
+  File "httptools\parser\parser.pyx", line 193, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: invalid HTTP method
+2020-06-02 08:03:56,794 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/health'
+Traceback (most recent call last):
+  File "c:\users\ftrempe\pycharmprojects\rasa64-3.7\venv\lib\site-packages\sanic\app.py", line 940, in handle_request
+    handler, args, kwargs, uri, name = self.router.get(request)
+  File "c:\users\ftrempe\pycharmprojects\rasa64-3.7\venv\lib\site-packages\sanic\router.py", line 411, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\ftrempe\pycharmprojects\rasa64-3.7\venv\lib\site-packages\sanic\router.py", line 475, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /health not found

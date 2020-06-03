@@ -1,0 +1,60 @@
+# Must be installed on Python 3.7 (not 3.8) in 64 bit only.
+# must https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16
+#       see https://www.scivision.dev/python-windows-visual-c-14-required/ for more details
+
+# to deploy :
+# C:\>cd C:\Program Files\Multipass\bin
+
+C:\Program Files\Multipass\bin>multipass launch --name k3s --mem 4G --disk 50G
+Launched: k3s
+
+C:\Program Files\Multipass\bin>multipass shell k3s
+Welcome to Ubuntu 18.04.4 LTS (GNU/Linux 4.15.0-101-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Tue Jun  2 08:33:01 EDT 2020
+
+  System load:  0.76              Processes:           96
+  Usage of /:   2.0% of 48.29GB   Users logged in:     0
+  Memory usage: 83%               IP address for eth0: 172.17.82.169
+  Swap usage:   0%
+
+
+0 packages can be updated.
+0 updates are security updates.
+
+
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+ubuntu@k3s:~$ curl -s get-rasa-x.rasa.com | sudo bash
+Installing embedded Kubernetes cluster ...
+Created symlink /etc/systemd/system/multi-user.target.wants/k3s.service → /etc/systemd/system/k3s.service.
+Installing Helm command line interface  ...
+
+
+Welcome to Rasa X 🎉
+
+Rasa X is currently being deployed on your machine.
+While you're waiting please add the following line to your terminal configuration (depending on your operating system this is the '~/.bashrc' or '~/.zshrc' file). This is needed so that you can access the embedded cluster using the 'kubectl' command line interface.
+
+        export KUBECONFIG=/etc/rancher/k3s/k3s.yaml
+
+Rasa X will be installed into the following Kubernetes namespace: rasa
+
+Please save the following access credentials for later use:
+
+Your Rasa X password is wB76oKJrvkO0yoxl49-E
+
+The passwords for the other services in the deployment are:
+
+Database password (PostgreSQL): 5iaPIKKRxGNhsPNxHbcw
+Event Broker password (RabbitMQ): ponYVeX36-BoejTg03Vf
+Lock Store password (Redis): uU2BwvZSo-aGA8dEGFlB
+
+Deploying Rasa X ...
+The deployment is ready 🎉.
+You can now access Rasa X on this URL: http://70.55.53.201/login?username=me&password=wB76oKJrvkO0yoxl49-E
